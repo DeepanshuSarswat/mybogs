@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "My New website ",
+      "body": "lorem lporem lorem ",
+      "author": "Deepanshu",
+      "id": 1
+    },
+    {
+      "title": "My new website ",
+      "body": "lorem lporem lorem ",
+      "author": "Deepanshu Sarswat",
+      "id": 2
+    },
+    {
+      "title": "My new website ",
+      "body": "lorem lporem lorem ",
+      "author": "Pinu",
+      "id": 3
+    }
+  ]
+}

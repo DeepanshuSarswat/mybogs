@@ -1,0 +1,163 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0%;
+  color: #333;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.nav {
+  padding: 20px;
+  display: flex;
+  max-width: 600px;
+  border-bottom: 1px solid #f2f2f2;
+  align-items: center;
+  margin: 0 auto;
+}
+.nav .links {
+  margin-left: auto;
+}
+
+.nav .links a:hover {
+  color: white;
+  background-color: #f1356d;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+}
+.links a {
+  margin-left: 16px;
+  padding: 6px;
+}
+h1,
+h2 {
+  color: #f1356d;
+}
+.content {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  position: relative;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin: 8px 0;
+}
+.child {
+  background-color: #f1356d;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.writter {
+  margin: 10px 0;
+}
+.body {
+  line-height: 2;
+  letter-spacing: 1;
+}
+.main {
+  display: flex;
+}
+.child1 {
+  position: absolute;
+  background-color: #f1356d;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 31%;
+  left: 29%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  color: white;
+}
+.Createblogh2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Createblog */
+.Createblog {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Createblog label {
+  text-align: left;
+  display: block;
+}
+.Createblog h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.Createblog input,
+.Createblog textarea,
+.Createblog select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.Createblog button {
+  background-color: #f1356d;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0;
+}
+.Blogdetail button {
+  background-color: #f1356d;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border: 8px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.notfound {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.notfound h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin: 8px 0;
+}
+.notfound p {
+  margin: 8px 0;
+}
+.notfound:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .nav h1 {
+    font-size: 17px;
+  }
+  .child1 {
+    color: #f1356d;
+  }
+}
