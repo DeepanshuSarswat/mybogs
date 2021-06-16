@@ -4,10 +4,10 @@ const BlogDetail = () => {
   const history = useHistory();
   const { id } = useParams();
   const { data: blog, ispending } = useFetch(
-    "http://localhost:8000/blogs/" + id
+    "https://deepanshublogss.netlify.app/blogs/" + id
   );
   function Deleteblogs() {
-    fetch("http://localhost:8000/blogs/" + blog.id, {
+    fetch("https://deepanshublogss.netlify.app/blogs/" + blog.id, {
       method: "DELETE",
     }).then(() => {
       history.push("/");
