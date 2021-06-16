@@ -4,7 +4,7 @@ import Bloglist from "./Bloglist";
 import useFetch from "./useFetch";
 
 const Home = () => {
-  const { data: blogs, ispending } = useFetch("http://localhost:8000/blogs/");
+  const { data: blogs, ispending } = useFetch("https://deepanshublogss.netlify.app/blogs/");
   return (
     <div className="home">
       {ispending && (
