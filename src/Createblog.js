@@ -21,7 +21,7 @@ const Createblog = () => {
     const blogobject = { title, body, author };
     setispending(true);
 
-    fetch("http://localhost:8000/blogs/", {
+    fetch("https://deepanshublogss.netlify.app/blogs/", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(blogobject),
